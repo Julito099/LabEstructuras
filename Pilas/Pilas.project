@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project Name="Pilas" Version="11000" InternalType="Console">
-  <VirtualDirectory Name="Pila"/>
+  <VirtualDirectory Name="Source File">
+    <File Name="Pila.cpp"/>
+    <File Name="NodoPila.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Header File">
+    <File Name="Pila.hpp"/>
+    <File Name="NodoPila.hpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -94,10 +101,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="NodoPila.cpp"/>
-    <File Name="NodoPila.hpp"/>
-    <File Name="Pila.cpp"/>
-    <File Name="Pila.hpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
