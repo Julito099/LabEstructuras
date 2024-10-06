@@ -1,9 +1,10 @@
 #include "NodoPila.hpp"
 using namespace std;
 
-NodoPila::NodoPila(int v, NodoPila* sig)
+
+NodoPila::NodoPila(Persona persona, NodoPila* sig)
 {
-	valor = v;
+	valor = persona;
 	siguiente = sig;
 }
 

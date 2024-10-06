@@ -1,14 +1,15 @@
 #include <iostream>
+#include "Persona.hpp"
 using namespace std;
 
 class NodoPila
 {
 public:
-	NodoPila(int v, NodoPila* sig = NULL);
+	NodoPila(Persona persona, NodoPila* sig = NULL);
 	~NodoPila();
 
 private:
-	int valor;
+	Persona persona;
 	NodoPila* siguiente;
 	friend class Pila;
 };

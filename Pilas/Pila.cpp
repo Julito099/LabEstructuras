@@ -1,21 +1,27 @@
 #include "Pila.hpp"
 
+Persona::Persona(int edad) {
+	this->edad = edad;
+	this->genero = rand() % 2;
+	generarDni();
+}
+
 Pila::Pila()
 {
 	ultimo = NULL;
 	longitud = 0;
 }
-void Pila::insertar(int v)
+void Pila::insertar(persona v)
 {
 	pnodoPila nuevo;
 	nuevo = new NodoPila(v, ultimo);
 	ultimo = nuevo;
 	longitud++;
 }
-int Pila::extraer()
+Persona Pila::extraer()
 {
 	pnodoPila nodo;
-	int v;
+	Persona v;
 	if(!ultimo)
 		return 0;
 	nodo = ultimo;
@@ -25,9 +31,8 @@ int Pila::extraer()
 	delete nodo;
 	return v;
 }
-int Pila::cima()
+Persona Pila::cima()
 {
-	pnodoPila nodo;
 	if(!ultimo)
 		return 0;
 	return ultimo->valor;
@@ -42,7 +47,7 @@ void Pila::mostrar()
 	}
 	cout << endl;
 }
-int Pila::getLongitud()
+Persona Pila::getLongitud()
 {
 	return this->longitud;
 }

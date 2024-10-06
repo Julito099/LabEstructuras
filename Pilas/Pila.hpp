@@ -1,10 +1,11 @@
 #include "NodoPila.hpp"
+
 class Pila
 {
 public:
 	Pila();
 	~Pila();
-	void insertar(int v);
+	void insertar(Persona persona);
 	int extraer();
 	int cima();
 	void mostrar();
