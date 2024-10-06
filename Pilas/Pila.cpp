@@ -47,7 +47,7 @@ void Pila::mostrar()
 	}
 	cout << endl;
 }
-Persona Pila::getLongitud()
+int Pila::getLongitud()
 {
 	return this->longitud;
 }
