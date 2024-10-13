@@ -1,8 +1,7 @@
 #ifndef PERSONA_HPP
 #define PERSONA_HPP
 
-#include <iostream>
-#include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -19,8 +18,8 @@ private:
     bool genero;
     int edad;
     char dni[10];
-    
-    void generarDni(); // Método privado para generar el DNI automáticamente
+	
+	void generarDni(); // Método privado para generar el DNI automáticamente
 };
 
 #endif // PERSONA_HPP

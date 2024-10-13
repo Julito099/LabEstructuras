@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Colas" Version="11000" InternalType="Console">
+<CodeLite_Project Name="PECLArranzHernánCarlos" Version="11000" InternalType="Console">
   <VirtualDirectory Name="Source Files">
-    <File Name="Persona.cpp"/>
-    <File Name="Cola.cpp"/>
+    <File Name="Proceso.cpp"/>
+    <File Name="Pila.cpp"/>
+    <File Name="NodoPila.cpp"/>
     <File Name="NodoCola.cpp"/>
+    <File Name="NodoLista.cpp"/>
+    <File Name="NodoArbol.cpp"/>
+    <File Name="Lista.cpp"/>
+    <File Name="Gestor.cpp"/>
+    <File Name="Cola.cpp"/>
+    <File Name="Arbol.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="Header Files">
-    <File Name="Persona.hpp"/>
-    <File Name="Cola.hpp"/>
+    <File Name="Proceso.hpp"/>
+    <File Name="Pila.hpp"/>
+    <File Name="NodoPila.hpp"/>
+    <File Name="NodoLista.hpp"/>
     <File Name="NodoCola.hpp"/>
+    <File Name="NodoArbol.hpp"/>
+    <File Name="Lista.hpp"/>
+    <File Name="Gestor.hpp"/>
+    <File Name="Cola.hpp"/>
+    <File Name="Arbol.hpp"/>
   </VirtualDirectory>
   <Description/>
   <Dependencies/>

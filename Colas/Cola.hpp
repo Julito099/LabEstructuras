@@ -6,10 +6,10 @@ public:
 	Cola();
 	~Cola();
 	
-	void insertar(int v);
-	int eliminar();
+	void insertar(Persona* p);
+	Persona* eliminar();
 	void mostrar();
-	int verPrimero();
+	Persona* verPrimero();
 
 private:
 	pnodoCola primero, ultimo;

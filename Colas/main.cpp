@@ -1,31 +1,38 @@
 #include <Cola.hpp>
+#include "Persona.hpp"
 int main(int argc, char **argv)
 {
-	Cola cola;
+	Cola colaPersonas;
 	
-	cola.insertar(1);
-	cola.insertar(2);
-	cola.insertar(3);
-	cola.insertar(4);
-	cola.mostrar();
+	// Crear algunas personas
+    Persona* p1 = new Persona(25);
+    Persona* p2 = new Persona(30);
+    Persona* p3 = new Persona(12);
+	Persona* p4 = new Persona(34);
+	Persona* p5 = new Persona(80);
+	colaPersonas.insertar(p1);
+	colaPersonas.insertar(p2);
+	colaPersonas.insertar(p3);
+	colaPersonas.insertar(p4);
+	colaPersonas.mostrar();
 	
-	int primero = cola.verPrimero();
-	cola.eliminar();
+	Persona* primero = colaPersonas.verPrimero();
+	colaPersonas.eliminar();
 	cout << "\tDespues de extraer el primero (" << primero << ")..." << endl;
-	cola.mostrar();
+	colaPersonas.mostrar();
 	
-	cola.eliminar();
-	cola.mostrar();
-	cola.insertar(5);
-	cola.mostrar();
-	cola.eliminar();
-	cola.mostrar();
-	cola.eliminar();
-	cola.mostrar();
-	cola.eliminar();
-	cola.mostrar();
-	cola.eliminar();
-	cola.mostrar();
+	colaPersonas.eliminar();
+	colaPersonas.mostrar();
+	colaPersonas.insertar(p5);
+	colaPersonas.mostrar();
+	colaPersonas.eliminar();
+	colaPersonas.mostrar();
+	colaPersonas.eliminar();
+	colaPersonas.mostrar();
+	colaPersonas.eliminar();
+	colaPersonas.mostrar();
+	colaPersonas.eliminar();
+	colaPersonas.mostrar();
 	
 	return 0;
 }

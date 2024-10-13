@@ -1,62 +1,62 @@
 #include "Pila.hpp"
 
-Persona::Persona(int edad) {
-	this->edad = edad;
-	this->genero = rand() % 2;
-	generarDni();
-}
-
 Pila::Pila()
 {
-	ultimo = NULL;
-	longitud = 0;
+    ultimo = NULL;
+    longitud = 0;
 }
-void Pila::insertar(persona v)
+
+void Pila::insertar(Persona* p)
 {
-	pnodoPila nuevo;
-	nuevo = new NodoPila(v, ultimo);
-	ultimo = nuevo;
-	longitud++;
+    pnodoPila nuevo;
+    nuevo = new NodoPila(p, ultimo);
+    ultimo = nuevo;
+    longitud++;
 }
-Persona Pila::extraer()
+
+Persona* Pila::extraer()
 {
-	pnodoPila nodo;
-	Persona v;
-	if(!ultimo)
-		return 0;
-	nodo = ultimo;
-	ultimo = nodo->siguiente;
-	v = nodo->valor;
-	longitud--;
-	delete nodo;
-	return v;
+    pnodoPila nodo;
+    Persona* p;
+    if(!ultimo)
+        return NULL;
+    nodo = ultimo;
+    ultimo = nodo->siguiente;
+    p = nodo->persona;
+    longitud--;
+    delete nodo;
+    return p;
 }
-Persona Pila::cima()
+
+Persona* Pila::cima()
 {
-	if(!ultimo)
-		return 0;
-	return ultimo->valor;
+    if(!ultimo)
+        return NULL;
+    return ultimo->persona;
 }
+
 void Pila::mostrar()
 {
-	pnodoPila aux = ultimo;
-	cout << "\tEl contenido de la pila es: ";
-	while(aux) {
-		cout << "-> " << aux->valor;
-		aux = aux->siguiente;
-	}
-	cout << endl;
+    pnodoPila aux = ultimo;
+    cout << "\tEl contenido de la pila es: " << endl;
+    while(aux) {
+        aux->persona->mostrar(); // Llamar al método mostrar de Persona
+        aux = aux->siguiente;
+    }
+    cout << endl;
 }
+
 int Pila::getLongitud()
 {
-	return this->longitud;
+    return this->longitud;
 }
+
 Pila::~Pila()
 {
-	pnodoPila aux;
-	while(ultimo) {
-		aux = ultimo;
-		ultimo = ultimo->siguiente;
-		delete aux;
-	}
+    pnodoPila aux;
+    while(ultimo) {
+        aux = ultimo;
+        ultimo = ultimo->siguiente;
+        delete aux;
+    }
 }

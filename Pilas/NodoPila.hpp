@@ -5,11 +5,11 @@ using namespace std;
 class NodoPila
 {
 public:
-	NodoPila(Persona persona, NodoPila* sig = NULL);
+	NodoPila(Persona* p, NodoPila* sig = NULL);
 	~NodoPila();
 
 private:
-	Persona persona;
+	Persona* persona;
 	NodoPila* siguiente;
 	friend class Pila;
 };

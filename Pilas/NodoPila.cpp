@@ -2,9 +2,9 @@
 using namespace std;
 
 
-NodoPila::NodoPila(Persona persona, NodoPila* sig)
+NodoPila::NodoPila(Persona* p, NodoPila* sig)
 {
-	valor = persona;
+	persona = p;
 	siguiente = sig;
 }
 

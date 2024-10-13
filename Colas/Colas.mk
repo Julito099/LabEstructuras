@@ -2,20 +2,20 @@
 ## Auto Generated makefile by CodeLite IDE
 ## any manual changes will be erased      
 ##
-## Debug
+## Release
 ProjectName            :=Colas
-ConfigurationName      :=Debug
-WorkspaceConfiguration :=Debug
-WorkspacePath          :=C:/Users/julit/OneDrive/Documentos/LabEstructuras
-ProjectPath            :=C:/Users/julit/OneDrive/Documentos/LabEstructuras/Colas
+ConfigurationName      :=Release
+WorkspaceConfiguration :=Release
+WorkspacePath          :=C:/Users/PC/OneDrive/Documentos/LabEstructuras
+ProjectPath            :=C:/Users/PC/OneDrive/Documentos/LabEstructuras/Colas
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Colas
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=julit
-Date                   :=10/6/2024
-CodeLitePath           :=C:/Users/julit/OneDrive/Escritorio/codelite-amd64-17.0.0/codelite
+User                   :=PC
+Date                   :=10/11/2024
+CodeLitePath           :=C:/Users/PC/OneDrive/Escritorio/codelite-amd64-17.0.0/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -29,9 +29,9 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=C:/Users/julit/OneDrive/Documentos/LabEstructuras/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Users/PC/OneDrive/Documentos/LabEstructuras/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
-Preprocessors          :=
+Preprocessors          :=$(PreprocessorSwitch)NDEBUG 
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
@@ -54,8 +54,8 @@ LibPath                := $(LibraryPathSwitch).
 AR       := ar rcus
 CXX      := g++
 CC       := gcc
-CXXFLAGS :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
-CFLAGS   :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
+CXXFLAGS :=  -O2 -Wall $(Preprocessors)
+CFLAGS   :=  -O2 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := as
 
@@ -64,7 +64,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Users\julit\OneDrive\Escritorio\codelite-amd64-17.0.0\codelite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Persona.cpp$(ObjectSuffix) 
 
 
 
@@ -96,19 +96,24 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/julit/OneDrive/Documentos/LabEstructuras/Colas/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/PC/OneDrive/Documentos/LabEstructuras/Colas/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/julit/OneDrive/Documentos/LabEstructuras/Colas/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/PC/OneDrive/Documentos/LabEstructuras/Colas/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
 
 $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/julit/OneDrive/Documentos/LabEstructuras/Colas/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/PC/OneDrive/Documentos/LabEstructuras/Colas/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
+
+$(IntermediateDirectory)/Persona.cpp$(ObjectSuffix): Persona.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/PC/OneDrive/Documentos/LabEstructuras/Colas/Persona.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Persona.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Persona.cpp$(PreprocessSuffix): Persona.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Persona.cpp$(PreprocessSuffix) Persona.cpp
 
 ##
 ## Clean

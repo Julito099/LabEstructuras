@@ -6,10 +6,10 @@ Cola::Cola()
 	ultimo = NULL;
 	longitud = 0;
 }
-void Cola::insertar(int v)
+void Cola::insertar(Persona* p)
 {
 	pnodoCola nuevo;
-	nuevo = new NodoCola(v);
+	nuevo = new NodoCola(p, ultimo);
 	if(ultimo)
 		ultimo->siguiente = nuevo;
 	
@@ -18,34 +18,35 @@ void Cola::insertar(int v)
 	if(!primero)
 		primero = nuevo;
 	longitud++;
+	
 }
 void Cola::mostrar()
 {
 	pnodoCola aux = primero;
 	cout << "\tEl contenido de la cola es: ";
 	while(aux) {
-		cout << "-> " << aux->valor;
+		cout << "-> " << aux->persona;
 		aux = aux->siguiente;
 	}
 	cout << endl;
 }
-int Cola::eliminar()
+Persona* Cola::eliminar()
 {
 	pnodoCola nodo;
-	int v;
+	Persona* p;
 	nodo = primero;
 	if(!nodo)
 		return 0;
 	primero = nodo->siguiente;
-	v = nodo->valor;
+	p = nodo->persona;
 	delete nodo;
 	if(!primero)
 		ultimo = NULL;
 	longitud--;
-	return v;
+	return p;
 }
-int Cola::verPrimero(){
-	return primero->valor;
+Persona* Cola::verPrimero(){
+	return primero->persona;
 }
 Cola::~Cola()
 {
