@@ -3,15 +3,18 @@
 
 #include <string>
 
+using namespace std;
+
 class Proceso {
 public:
 	int pid;
-	std::string usuario;
+	string usuario;
 	bool estado; 
 	int prioridad;
 	bool tipo_proceso; 
 	
 	Proceso();
+	~Proceso();
 	void generar_prioridad();
 	void mostrar_proceso() const;
 };

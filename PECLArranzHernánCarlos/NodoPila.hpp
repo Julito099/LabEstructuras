@@ -1,12 +1,17 @@
-#ifndef NODOPILA_HPP
-#define NODOPILA_HPP
+#include <iostream>
+#include "Proceso.hpp"
+using namespace std;
 
 class NodoPila
 {
 public:
-	NodoPila();
+	NodoPila(Proceso* p, NodoPila* sig = NULL);
 	~NodoPila();
 
+private:
+	Proceso* persona;
+	NodoPila* siguiente;
+	friend class Pila;
 };
 
-#endif // NODOPILA_HPP
+typedef NodoPila* pnodoPila;
