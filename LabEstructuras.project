@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="LabEstructuras" Version="11000" InternalType="">
+  <VirtualDirectory Name="Pilas">
+    <File Name="Pilas/Pila.hpp"/>
+    <File Name="Pilas/Pila.cpp"/>
+    <File Name="Pilas/NodoPila.hpp"/>
+    <File Name="Pilas/NodoPila.cpp"/>
+    <File Name="Pilas/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Paso_por_referencia">
+    <File Name="Paso_por_referencia/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Paso_de_argumentos">
+    <File Name="Paso_de_argumentos/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo13">
+    <File Name="Ejemplo13/Persona.hpp"/>
+    <File Name="Ejemplo13/Persona.cpp"/>
+    <File Name="Ejemplo13/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ejemplo12">
+    <File Name="ejemplo12/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo10">
+    <File Name="Ejemplo10/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo09">
+    <File Name="Ejemplo09/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo08">
+    <File Name="Ejemplo08/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo07">
+    <File Name="Ejemplo07/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo06">
+    <File Name="Ejemplo06/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo05">
+    <File Name="Ejemplo05/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo04">
+    <File Name="Ejemplo04/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo03">
+    <File Name="Ejemplo03/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo02">
+    <File Name="Ejemplo02/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Ejemplo01">
+    <File Name="Ejemplo01/main.cpp"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName).exe" IntermediateDirectory="$(ConfigurationName)" Command="$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

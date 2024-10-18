@@ -1,0 +1,85 @@
+[{
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo02\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo02\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo02\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo04\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo04\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo04\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo06\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo06\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo06\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\ejemplo12\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\ejemplo12\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\ejemplo12\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo03\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo03\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo03\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\NodoPila.hpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\NodoPila.hpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\NodoPila.hpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\Persona.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\Persona.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\Persona.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\Persona.hpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\Persona.hpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo13\\Persona.hpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Paso_por_referencia\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Paso_por_referencia\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Paso_por_referencia\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo01\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo01\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo01\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo09\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo09\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo09\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\Pila.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\Pila.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\Pila.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo05\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo05\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo05\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo07\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo07\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo07\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\NodoPila.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\NodoPila.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\NodoPila.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Paso_de_argumentos\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Paso_de_argumentos\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Paso_de_argumentos\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo08\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo08\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo08\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo10\\main.cpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo10\\main.cpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Ejemplo10\\main.cpp.o  -I. -I.  -g -Wall"
+ }, {
+  "file": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\Pila.hpp",
+  "directory": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras",
+  "command": "clang++ -c C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\Pila.hpp -o C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\LabEstructuras\\Pilas\\Pila.hpp.o  -I. -I.  -g -Wall"
+ }]
